@@ -25,7 +25,7 @@ fetch(endpoint, requestOptions)
       return response.json();
     })
     .then((response) => {
-      document.getElementById("result-text").innerText =
+      if (response.ok) document.getElementById("result-text").innerText =
         "Thank you for inquirering about our protection plan. We will reach out soon with details.";
     })
     .catch((error) => {
