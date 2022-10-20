@@ -7,7 +7,7 @@ form.addEventListener("submit", (event) => {
 
 	// Use your API endpoint URL you copied from the previous step
   const endpoint =
-    "<https://x0u57qce63.execute-api.us-east-2.amazonaws.com/default/SendEmail>";
+    "https://x0u57qce63.execute-api.us-east-2.amazonaws.com/default/SendEmail";
   // We use JSON.stringify here so the data can be sent as a string via HTTP
 	const body = JSON.stringify({
     senderName: name.value,
@@ -26,10 +26,10 @@ form.addEventListener("submit", (event) => {
     })
     .then((response) => {
       document.getElementById("result-text").innerText =
-        "Email sent successfully!";
+        "Thank you for inquirering about our protection plan. We will reach out soon with details.";
     })
     .catch((error) => {
       document.getElementById("result-text").innerText =
-        "Email sent successfully!-Error";
+        "An unkown error occured.";
     });
 });
