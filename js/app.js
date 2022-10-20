@@ -30,6 +30,6 @@ form.addEventListener("submit", (event) => {
     })
     .catch((error) => {
       document.getElementById("result-text").innerText =
-        "An unkown error occured.";
+        "An unkown error occured. But did it Really?";
     });
 });
