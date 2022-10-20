@@ -19,7 +19,7 @@ form.addEventListener("submit", (event) => {
     body
   };
 
-/* fetch(endpoint, requestOptions)
+fetch(endpoint, requestOptions)
     .then((response) => {
       if (!response.ok) throw new Error("Error in fetch");
       return response.json();
@@ -31,5 +31,5 @@ form.addEventListener("submit", (event) => {
     .catch((error) => {
       document.getElementById("result-text").innerText =
         "An unkown error occured. But did it Really?";
-    }); */
+    });
 });
