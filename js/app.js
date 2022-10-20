@@ -25,10 +25,10 @@ fetch(endpoint, requestOptions)
       return response.json();
     })
     .then((response) => {
-      if (response.ok) document.getElementById("result-text").innerText =
+     document.getElementById("result-text").innerText =
         "Thank you for inquirering about our protection plan. We will reach out soon with details.";
     })
-  /*   .catch((error) => {
+   /*  .catch((error) => {
       document.getElementById("result-text").innerText =
         "An unkown error occured. But did it Really?";
     }); */
