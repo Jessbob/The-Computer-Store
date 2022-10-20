@@ -1,0 +1,200 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.header {
+    background-color: #1a3768;
+}  
+
+.cs-blue-text {
+    color:#1a3768;
+}
+
+.cs-blue-button {
+    background-color: #1a3768;
+}
+.navbar-icons {
+    min-height: 50px; 
+    max-height:85px;
+    padding-right: 1rem;
+}
+.masthead {
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+.perks {
+    min-height: 115px;
+    align-items: center;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.service-card-rows {
+    width: 90%
+}
+
+.service-card {
+    width: 275px;
+    
+}
+
+.service-card-img {
+    width: 50%
+}
+
+.service-card-button {
+    background-color: #1a3768;
+    align-items: end;
+}
+
+.testimonials {
+    
+        background-size: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        color: white;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+}
+
+.logojim {
+    
+    height: 85%;
+    margin:auto; 
+    position:absolute;
+    bottom:0; 
+    left:0;right:0; 
+}
+
+.footer-social-icon {
+    max-height: 75px;
+    align-self: end;
+}
+
+.page-title {
+    background-color: #212529;
+    color: white;
+    padding: 3rem;
+}
+
+.page-content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+
+
+.building-sign {
+    max-width: 100%;
+    float: right;
+    
+}
+
+.copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: #808080;
+    float:right;
+}
+
+.protect {
+    padding: .5rem;
+    ;
+}
+
+.basic {
+    background-color: aquamarine !important;
+}
+
+.silver{
+    background-color: silver !important;
+}
+
+.gold{
+    background-color: gold !important;
+    padding: 10px;
+}
+
+.platinum {
+    background-color: #D1E2E8 !important;
+}
+
+@media (max-width: 960px) {
+    .navbar-icons {
+        height: 65px;
+    }
+    
+    .masthead {
+        min-height: 20vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+    .footer-social-icon{
+        margin-left: auto;
+        margin-right: auto;
+        
+        float: none;
+    }
+    .footer-heading {
+        
+        float: none;
+        text-align: center;
+    }
+    .page-content{
+        margin: 1rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .building-sign{
+        float: none;
+    }
+   
+    .container2 {
+        position: relative;
+        width: 250px;
+        height: 200px;
+        background-color: #808080;
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .protect {
+        font-size: 12px;
+    }
+
+    .card-text {
+        font-size: 14px;
+
+    }
+}
+
