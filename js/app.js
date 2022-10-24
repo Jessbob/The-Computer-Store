@@ -3,7 +3,7 @@ form.addEventListener("submit", (event) => {
   // prevent the form submit from refreshing the page
   event.preventDefault();
 
-  const { name, email, message } = event.target;
+  const { name, email, phone, company } = event.target;
 
 	// Use your API endpoint URL you copied from the previous step
   const endpoint =
@@ -12,7 +12,8 @@ form.addEventListener("submit", (event) => {
 	const body = JSON.stringify({
     senderName: name.value,
     senderEmail: email.value,
-    message: message.value
+    phone: phone.value,
+    company: company.value
   });
   const requestOptions = {
     method: "POST",
