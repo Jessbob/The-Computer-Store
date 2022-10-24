@@ -31,7 +31,7 @@ function error (err) {
 }
 form.addEventListener('submit', function (e) {
   e.preventDefault()
-  toast.innerHTML = 'Sending'
+  toast.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP.'
   submit.disabled = true
   const payload = {
     name: form.name.value,
