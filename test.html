@@ -21,7 +21,21 @@
 
 
 <body>
-<h2>Contact Us</h2>
+  <form id="contactForm">
+    <label>Name</label>
+    <input type="text" placeholder="Name" name="name" required>
+    <label>Email Address</label>
+    <input type="email" placeholder="Email Address" name="email" required>
+    <label>Message</label>
+    <textarea rows="5" placeholder="Message" name="content" required></textarea>
+    <div id="toast"></div>
+    <button type="submit" id="submit">Send</button>
+  </form>
+
+
+
+
+<!-- <h2>Contact Us</h2>
 
 <form>
   <label for="name">Name:</label>
@@ -34,7 +48,8 @@
   <div>
     <p id="result-text"></p>
   </div>
-</form>
+</form> -->
 </body>
-<script src="js/app.js"></script>
+
+<script src="js/test.js"></script>
 </html>

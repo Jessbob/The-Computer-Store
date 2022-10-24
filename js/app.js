@@ -1,4 +1,4 @@
-const form = document.querySelector("form");
+form = document.querySelector("form1");
 form.addEventListener("submit", (event) => {
   // prevent the form submit from refreshing the page
   event.preventDefault();
