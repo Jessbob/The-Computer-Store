@@ -108,33 +108,35 @@
     <li><h4><i class="bi bi-stopwatch-fill"></i>      Computer Priority Service</h4></li>
     </ul>
     </div>
-    <div class="col-lg-4 my-3 ">
+    <div class="col-lg-6 my-3 ">
       <div class="card bg-light mb-4">
         <h4 class="card-header"><strong>Get One Month Free!</strong></h4>
           <div class="card-body">
-            <form>
+            <h6 class="card-subtitle mb-2">When you sign up for our Protection Plan.</h6>
+            <form id="contactForm">
               <div class="col-12">
-                <label for="Name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="" required>
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Name" name="name" required>
               </div>
               <div class="col-12">
-                <label for="Email" class="form-label">Email</label>
-                <input type="text" class="form-control" id="email" placeholder="hello@email.com" required>
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Email Address" name="email" required>
               </div>
               <div class="col-md-6">
-                <label for="Phone" class="form-label">Phone</label>
-                <input type="text" class="form-control" id="Phone">
+                <label class="form-label">Phone</label>
+                <input type="phone" class="form-control" name="phone">
               </div>
               <div class="col-md-12">
-                <label for="Company" class="form-label">Company</label>
-                <input type="text" id="Company" class="form-control">    
+                <label class="form-label">Company</label>
+                <input type="text" class="form-control" name="company">    
               </div>
 
               <div class="col-12 p-2">
-                <button type="submit" class="btn btn-primary cs-blue-button text-light">Submit</button>
+                <button type="submit" id="submit" class="btn btn-primary text-light cs-blue-button">Submit</button>
               </div>
             </form>
       </div>
+      <div class="card-footer">Offer valid with a 6 month comitment.</div>
     </div>
       
       <div class="card bg-light w-100 h-45 mb-4 pb-4">
