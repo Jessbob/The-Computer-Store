@@ -1,8 +1,11 @@
+.header {
+    background-color: #1a3768;
+}
 body {
     font-family: 'Open Sans', sans-serif;
   }
 
-.header {
+.footer {
     background-color: #1a3768;
 }  
 
@@ -24,6 +27,9 @@ body {
     position: relative;
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+.carousel-bg {
+    background-color: #030303;
 }
 
 .perks {
@@ -90,7 +96,7 @@ h1 {
 }
 
 .page-title {
-    background-color: #212529;
+    background-color: #1a3768;
     color: white;
     padding: 3rem;
 }
@@ -149,6 +155,8 @@ h1 {
 
 .notfound {
     text-align:center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -199,7 +207,11 @@ h1 {
 
     .card-text {
         font-size: 14px;
+    }
 
+    .img404 {
+        max-width: 90%;
+    
     }
 }
 
